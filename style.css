@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+header, footer {
+  background: #468966;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 2em;
+}
+.intro, .sns {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.btn {
+  background: #468966;
+  color: white;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+}
+.product-card {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+form {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+form label {
+  display: block;
+  margin-bottom: 1em;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 0.3em;
+}
+button {
+  background: #468966;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .product-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
